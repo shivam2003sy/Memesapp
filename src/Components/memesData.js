@@ -805,4 +805,4 @@ const Object = {
         ]
     }
 }
-export default Object
+export default Object;
