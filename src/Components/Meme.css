@@ -1,0 +1,15 @@
+.box {
+    max-width: 215px;
+    border-radius: 5px;
+    padding: 1em;
+    margin: auto;
+    user-select: none;
+    font-size:x-large;
+    font-weight: 1000;
+    font-family: impact;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: black;
+  text-shadow: 5px;
+  text-shadow: 10in;
+  }
