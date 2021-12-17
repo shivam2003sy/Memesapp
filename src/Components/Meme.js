@@ -1,8 +1,8 @@
-import Button from "@restart/ui/esm/Button";
 import React, { useState } from "react";
 import { Form, Row, Col, Card } from "react-bootstrap";
 import MemesData from "../Components/memesData";
 import Draggable from "react-draggable";
+import{Button} from "@mui/material" 
 import "./Meme.css"
 function Meme() {
   const [memeimage, setmemeimage] = useState("");
@@ -56,20 +56,15 @@ function Meme() {
       >
         <Card.Img variant="top" src={memeimage} />
         <Card.Body>
-          <Button
+          <Button variant="contained" color="success"
             onClick={getMemeImage}
-            style={{
-              background: "black",
-              color: "white",
-              border: "2",
-              boxSizing: "content-box",
-            }}
             type="submit"
           >
             Load a new meme pic{" "}
           </Button>
         </Card.Body>
       </Card>
+      <p>drag text</p>
 
       <Draggable>
         <div className="box">
